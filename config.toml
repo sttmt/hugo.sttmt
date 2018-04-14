@@ -43,3 +43,15 @@ tag ="tags"
 [blackfriday]
 hrefTargetBlank = true
 
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+noAlternative = true
+
+[params.algolia]
+vars = ["title", "content", "date", "publishdate", "permalink"]
+params = ["tags"]
+
+[outputs]
+home = ["HTML", "RSS", "algolia"]
