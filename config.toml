@@ -2,8 +2,8 @@ baseurl = "https://sttmt.netlify.com"
 languageCode = "en"
 title = "at the end of the day"
 theme = "kiss"
-copyright = "&copy; <a href=\"https://github.com/ribice\">Emir Ribic</a> 2017"
-disqusShortname = "shortname"
+#copyright = "&copy; <a href=\"https://github.com/ribice\">Emir Ribic</a> 2017"
+#disqusShortname = "shortname"
 googleAnalytics = ""
 # Number of posts per page
 Paginate = 5
