@@ -1,4 +1,6 @@
 ---
+pages:
+- posts/my-second-post-by-forestry.md
 hide_body: false
 is_partial: false
 fields:
