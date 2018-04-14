@@ -1,6 +1,6 @@
 baseurl = "https://sttmt.netlify.com"
 languageCode = "en"
-title = "at the end of the day"
+title = "conservation status"
 theme = "kiss"
 #copyright = "&copy; <a href=\"https://github.com/ribice\">Emir Ribic</a> 2017"
 #disqusShortname = "shortname"
@@ -16,7 +16,7 @@ customCSS = ["css/custom.css"]
 [params.info]
 adsense = "" # Adsense ID (ID only, without ca-pub-)
 enableSocial = false # Adds OpenGraph and Twitter cards
-homeTitle = "ATEOTD" # Title for home page
+homeTitle = "You are disturbing me. I am picking mushrooms." # Title for home page
 poweredby = true # Adds powered by Hugo and Kiss below Copyright section
 related = true # Includes related articles
 
