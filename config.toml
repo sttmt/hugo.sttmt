@@ -50,7 +50,7 @@ mediaType = "application/json"
 noAlternative = true
 
 [params.algolia]
-vars = ["title", "content", "date", "publishdate", "permalink"]
+vars = ["title", "content", "date", "dateString", "publishdate", "permalink"]
 params = ["tags"]
 
 [outputs]
