@@ -6,5 +6,7 @@ new_page_extension: md
 auto_deploy: false
 admin_path: 
 webhook_url: 
-sections: 
+sections:
+  posts:
+    default_front_matter_template: posts
 version: 0.38.1
