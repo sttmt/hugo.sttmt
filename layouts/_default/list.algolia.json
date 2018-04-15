@@ -10,11 +10,11 @@
     {{- .Scratch.SetInMap $hit.File.Path "objectID" $hit.UniqueID -}}
     {{/* Store built-in page variables in iterable object */}}
     {{- .Scratch.SetInMap "temp" "content" ($hit.Plain | truncate 2000) -}}
+    {{- .Scratch.SetInMap "temp" "publishdate" $hit.PublishDate -}}
     {{- .Scratch.SetInMap "temp" "dateString" (substr $hit.PublishDate 0 10) -}}
     {{- .Scratch.SetInMap "temp" "date" $hit.Date.UTC.Unix -}}
     {{- .Scratch.SetInMap "temp" "description" $hit.Description -}}
     {{- .Scratch.SetInMap "temp" "permalink" $hit.Permalink -}}
-    {{- .Scratch.SetInMap "temp" "publishdate" $hit.PublishDate -}}
     {{- .Scratch.SetInMap "temp" "title" $hit.Title -}}
     {{- .Scratch.SetInMap "temp" "thumbnail" $hit.Params.thumbnail -}}
     {{/* Include valid page vars */}}
