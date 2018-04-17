@@ -1,6 +1,6 @@
 +++
 date = "2018-04-17T23:09:36+09:00"
-tags = []
+tags = ["Music"]
 title = "The piano at Palermo airport"
 type = ""
 
