@@ -4,7 +4,7 @@ date: 2018-04-15 22:19:34 +0900
 tags:
 - search
 - algolia
-
+hidden: true
 ---
 <div id="search-box">
 <!-- 検索ボックス用の空DOM -->
