@@ -17,3 +17,6 @@ fields:
   type: tag_list
   hidden: false
   default: ''
+- type: boolean
+  name: hidden
+  label: Hidden
