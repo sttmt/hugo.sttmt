@@ -2,7 +2,6 @@
 title: Search
 date: 2018-04-15 22:19:34 +0900
 ---
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.7.2"></script>
 <div id="search-box">
 <!-- SearchBox widget will appear -->
 </div>
@@ -31,7 +30,7 @@ container: '#search-box',
 placeholder: 'Search for posts',
 poweredBy: true
 })
-\);
+);
 
 // initialize hits widget
 search.addWidget(
@@ -42,7 +41,7 @@ empty: 'No results',
 item: '<li><code>{{ dateString }}</code> <a href="{{permalink}}">{{ title }}</a></li>'
 }
 })
-\);
+);
 
 // initialize pagination
 search.addWidget(
@@ -51,7 +50,7 @@ container: '#pagination',
 maxPages: 20,
 scrollTo: false
 })
-\);
+);
 
 search.start();
 </script>
