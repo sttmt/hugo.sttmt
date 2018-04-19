@@ -1,25 +1,22 @@
 ---
 title: Search
 date: 2018-04-15 22:19:34 +0900
-tags:
-- search
-- algolia
-hidden: true
 ---
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.7.2"></script>
 <div id="search-box">
-<!-- 検索ボックス用の空DOM -->
+<!-- SearchBox widget will appear -->
 </div>
 
 <ul id="hits">
-<!-- 検索結果用のDOM、各結果をliで置くためulにしている -->
+<!-- Hits widget will appear here -->
 </ul>
 
 <div id="pagination">
-<!-- ページネーションがここに -->
+<!-- Pagination widget will appear here -->
 </div>
 
 <script>
-// instantSearchを初期化
+// initialize InstantSearch
 var search = instantsearch({
 appId: 'TTY2CV8DU0',
 apiKey: '341d5a221ef93efd8688d4e332c32a8f',
@@ -27,7 +24,7 @@ indexName: 'sttmt.netlify',
 urlSync: true
 });
 
-// 検索ボックスをDOMに設定
+// initialize SearchBox
 search.addWidget(
 instantsearch.widgets.searchBox({
 container: '#search-box',
@@ -36,8 +33,7 @@ poweredBy: true
 })
 \);
 
-// 検索結果をDOMに設定
-// 結果には<li>を使うように
+// initialize hits widget
 search.addWidget(
 instantsearch.widgets.hits({
 container: '#hits',
@@ -48,7 +44,7 @@ item: '<li><code>{{ dateString }}</code> <a href="{{permalink}}">{{ title }}</a>
 })
 \);
 
-// 検索結果をページネーションするための設定
+// initialize pagination
 search.addWidget(
 instantsearch.widgets.pagination({
 container: '#pagination',
