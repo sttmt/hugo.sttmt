@@ -1,8 +1,8 @@
 baseurl = "https://sttmt.netlify.com"
 languageCode = "en"
-title = "conservation status"
+title = "CONSERVATION STATUS"
 theme = "kiss"
-#copyright = "&copy; <a href=\"https://github.com/ribice\">Emir Ribic</a> 2017"
+copyright = "&copy; <a href=\"https://github.com/ribice\">Emir Ribic</a> 2017"
 #disqusShortname = "shortname"
 googleAnalytics = ""
 # Number of posts per page
@@ -36,6 +36,9 @@ page = "" # Twitter Page username. If not set, params.social.twitter will be use
 #facebook = "ribice"
 #instagram = ""
 #codepen = ""
+
+[params.sections_right]
+"https://sttmt.netlify.com/pages/search/" = "SEARCH"
 
 [taxonomies]
 tag ="tags"
