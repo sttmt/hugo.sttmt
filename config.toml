@@ -4,7 +4,7 @@ title = "CONSERVATION STATUS"
 theme = "kiss"
 copyright = "&copy; <a href=\"https://github.com/ribice\">Emir Ribic</a> 2017"
 #disqusShortname = "shortname"
-googleAnalytics = ""
+#googleAnalytics = ""
 # Number of posts per page
 Paginate = 5
 enableRobotsTXT = true
@@ -14,21 +14,21 @@ enableRobotsTXT = true
 customCSS = ["css/custom.css"]
 
 [params.info]
-adsense = "" # Adsense ID (ID only, without ca-pub-)
-enableSocial = true # Adds OpenGraph and Twitter cards
+#adsense = "" # Adsense ID (ID only, without ca-pub-)
+#enableSocial = true # Adds OpenGraph and Twitter cards
 homeTitle = "You are disturbing me. I am picking mushrooms." # Title for home page
-poweredby = false # Adds powered by Hugo and Kiss below Copyright section
+poweredby = true # Adds powered by Hugo and Kiss below Copyright section
 related = true # Includes related articles
 
-[params.opengraph.facebook]
-admins = [] # array of Facebook IDs
-appID = ""
-pageID = ""
+#[params.opengraph.facebook]
+#admins = [] # array of Facebook IDs
+#appID = ""
+#pageID = ""
 
-[params.opengraph.twitter]
-page = "" # Twitter Page username. If not set, params.social.twitter will be used.
+#[params.opengraph.twitter]
+#page = "" # Twitter Page username. If not set, params.social.twitter will be used.
 
-[params.social]
+#[params.social]
 #twitter = "ribicemir"
 #github = "ribice"
 #email = "ribice@gmail.com"
@@ -58,3 +58,25 @@ params = ["tags"]
 
 [outputs]
 home = ["HTML", "RSS", "algolia"]
+
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = false
+    disable = false
+    respectDoNotTrack = false
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = false
+    simple = false
+  [privacy.speakerDeck]
+    disable = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = false
+  [privacy.vimeo]
+    disable = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = false
