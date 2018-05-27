@@ -2,13 +2,13 @@ baseurl = "https://sttmt.netlify.com"
 languageCode = "en"
 title = "CONSERVATION STATUS"
 theme = "kiss"
-copyright = "&copy; <a href=\"https://github.com/ribice\">Emir Ribic</a> 2017"
+#copyright = "&copy; <a href=\"https://github.com/ribice\">Emir Ribic</a> 2017"
 #disqusShortname = "shortname"
 #googleAnalytics = ""
 # Number of posts per page
 Paginate = 5
 enableRobotsTXT = true
-
+FootnoteReturnLinkContents = "&#8617;"
 
 [params.assets]
 customCSS = ["css/custom.css"]
