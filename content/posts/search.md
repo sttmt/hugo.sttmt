@@ -55,3 +55,4 @@ scrollTo: false
 
 search.start();
 </script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.7.4"></script>
