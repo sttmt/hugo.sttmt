@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@import url("https://cdn.jsdelivr.net/npm/instantsearch.js@2.7.4/dist/instantsearch.min.css");
+@import url("https://cdn.jsdelivr.net/npm/instantsearch.js@2.7.4/dist/instantsearch-theme-algolia.min.css");
+@import url("https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i");
+body,
+button,
+input,
+select,
+textarea {
+    font-family: 'Arvo', serif;
+}
+body {
+    background-color: #fbfaf5;
+}
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    color: #c22047;
+}
+.footnote-ref,
+.footnote-return {
+    text-decoration: none;
+    font-family: monospace;
+}
+a[href^="#fn:"]:before {
+    content: '['
+}
+a[href^="#fn:"]:after {
+    content: ']'
+}
+.related {
+    margin-top: 40px;
+}

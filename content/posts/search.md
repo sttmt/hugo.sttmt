@@ -1,6 +1,7 @@
 ---
 title: Search
 date: 2018-04-15 22:19:34 +0900
+hidden: true
 ---
 <div id="search-box">
 <!-- SearchBox widget will appear -->
