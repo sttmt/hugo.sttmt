@@ -8,7 +8,7 @@ theme = "kiss"
 # Number of posts per page
 Paginate = 5
 enableRobotsTXT = true
-FootnoteReturnLinkContents = "&#8617;"
+FootnoteReturnLinkContents = "&#8593;"
 
 [params.assets]
 customCSS = ["css/custom.css"]
@@ -38,7 +38,7 @@ related = true # Includes related articles
 #codepen = ""
 
 [params.sections_right]
-"https://sttmt.netlify.com/pages/search/" = "SEARCH"
+"https://sttmt.netlify.com/posts/search/" = "SEARCH"
 
 [taxonomies]
 tag ="tags"
